@@ -1,0 +1,13 @@
+diff --git a/wp-includes/Requests/src/IdnaEncoder.php b/wp-includes/Requests/src/IdnaEncoder.php
+index 9d60ba1..07771bc 100644
+--- a/wp-includes/Requests/src/IdnaEncoder.php
++++ b/wp-includes/Requests/src/IdnaEncoder.php
+@@ -34,7 +34,7 @@ class IdnaEncoder {
+ 	 *
+ 	 * @var int
+ 	 */
+-	const MAX_LENGTH = 64;
++	const MAX_LENGTH = 128;
+ 
+ 	/**#@+
+ 	 * Bootstrap constant for Punycode
